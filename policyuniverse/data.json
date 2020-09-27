@@ -99782,6 +99782,21 @@
           "doc_page_rel": "https://docs.aws.amazon.com/savingsplans/latest/APIReference/API_CreateSavingsPlan.html"
         }
       },
+      "DeleteQueuedSavingsPlan": {
+        "aws_action_groups": [
+          "ReadWrite"
+        ],
+        "calculated_action_group": "Write",
+        "condition_keys": [
+          "aws:ResourceTag/${TagKey}"
+        ],
+        "description": "Grants permission to delete the queued savings plan associated with customers account",
+        "docs": {
+          "api_doc": "",
+          "doc_page": "",
+          "doc_page_rel": "https://docs.aws.amazon.com/savingsplans/latest/APIReference/API_DeleteQueuedSavingsPlan.html"
+        }
+      },
       "DescribeSavingsPlanRates": {
         "aws_action_groups": [
           "ReadOnly",
